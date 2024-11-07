@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">ScheduleFEFU</string>
     <string name="schedule">Schedule</string>
+    <string name="para">Para</string>
+    <string name="meeting">Деловая встреча</string>
+    <string name="h20_m00">20:00</string>
 </resources>
