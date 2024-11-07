@@ -4,37 +4,48 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <ImageView
-        android:id="@+id/eventImage"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_margin="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:src="@drawable/calendar"
-        />
-    
-    <TextView
-        android:id="@+id/eventName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@id/eventImage"
-        app:layout_constraintTop_toTopOf="parent"
-        android:text="@string/meeting"
-        />
-
     <TextView
         android:id="@+id/eventTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/_11_50_13_20"
+        />
+
+    <TextView
+        android:id="@+id/eventType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:text="@string/h20_m00"
+        android:text="@string/lecture"
+        />
+
+    <TextView
+        android:id="@+id/auditorium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toBottomOf="@id/eventTime"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/auditoriumD348"
+        android:textSize="28sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/auditorium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/lessonName"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

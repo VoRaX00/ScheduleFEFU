@@ -4,4 +4,8 @@
     <string name="para">Para</string>
     <string name="meeting">Деловая встреча</string>
     <string name="h20_m00">20:00</string>
+    <string name="_11_50_13_20">11:50-13:20</string>
+    <string name="lecture">Лекционное занятие</string>
+    <string name="auditoriumD348">D212(D348)</string>
+    <string name="lessonName">Физические основы вычислительной техники</string>
 </resources>
